@@ -1,0 +1,228 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    background-color: #f0f4f8;
+}
+
+.sidebar {
+    background: linear-gradient(180deg, #3b4a6b, #1e293b);
+    color: white;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .logo img {
+    width: 150px;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.sidebar nav ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1rem;
+}
+
+.sidebar nav ul li a i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #57698c;
+    transform: scale(1.02);
+}
+
+.sidebar nav ul li .submenu {
+    display: none;
+    margin-left: 20px;
+    margin-top: 0.5em;
+    list-style: none;
+}
+
+.sidebar nav ul li .submenu li a {
+    padding: 0.6em 1em;
+    background-color: #2b3c58;
+    border-radius: 4px;
+}
+
+.sidebar nav ul li a.has-submenu:hover + .submenu,
+.sidebar nav ul li .submenu:hover {
+    display: block;
+}
+
+.submenu-icon {
+    margin-left: auto;
+    font-size: 0.8em;
+    transition: transform 0.3s;
+}
+
+.submenu-icon.open {
+    transform: rotate(180deg);
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 2em;
+    background-color: #ffffff;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+.mobile-header {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #3b4a6b, #1e293b);
+    color: white;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+/* Card styling for both subjects and view subject details */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit description to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4.5em; /* Consistent height for descriptions */
+}
+
+/* List group item styling for view_subject_details.php */
+.list-group-item {
+    margin-bottom: 1rem;
+    border: none; /* Clean look */
+    padding-left: 0;
+}
+
+.list-group-item h6 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.list-group-item p {
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Button styling for both pages */
+.btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 250px;
+        transform: translateX(-100%);
+        z-index: 1001;
+    }
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .mobile-header {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar ul li a {
+        padding: 0.5em;
+        font-size: 0.9em;
+    }
+
+    .main-content {
+        padding: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 12000px;
+    }
+}

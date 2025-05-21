@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-header {
+    width: 100%;
+    background: #f8f9fa; /* Light grey background */
+    padding: 10px 20px; /* Padding around the header */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    position: fixed; /* Fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+.main-content {
+    margin-top: 60px; /* Adjust based on actual height of your header */
+}
+
+.sidebar {
+    margin-top: 60px; /* This ensures the sidebar starts below the fixed header */
+}
+/* Card styling for both subjects and view subject details */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit description to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4.5em; /* Consistent height for descriptions */
+}
+
+/* List group item styling for view_subject_details.php */
+.list-group-item {
+    margin-bottom: 1rem;
+    border: none; /* Clean look */
+    padding-left: 0;
+}
+
+.list-group-item h6 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.list-group-item p {
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Button styling for both pages */
+.btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+}
+
+#mini-announcements {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+#mini-announcements h5 {
+    margin-bottom: 10px;
+}
+
+#mini-announcements ul {
+    margin-bottom: 0;
+}
+
+#mini-announcements li {
+    margin-bottom: 5px;
+}
+.bold-text {
+    font-weight: bold;
+}.notification-dot {
+    display: none;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.new-announcement {
+    background-color: #fffbe6;
+}
+
+.mini-announcement-link.new-announcement {
+    color: #1890ff;
+}
+
+.new-content {
+    border: 2px solid #1890ff;
+}
+
+.has-new-content::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.badge-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}

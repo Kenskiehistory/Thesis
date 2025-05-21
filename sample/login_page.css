@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+}
+.header {
+    background-color: #1a237e;
+    padding: 10px 0;
+}
+.logo {
+    max-height: 40px;
+}
+.nav-link {
+    color: #ffffff !important;
+}
+.login-container {
+    min-height: calc(100vh - 60px); /* Adjust for header height */
+    background-color: #ffffff;
+}
+.img-container {
+    background-color: #c5c5c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.login-card {
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.login-form {
+    padding: 2rem;
+}
+.btn-primary {
+    background-color: #1a237e;
+    border-color: #1a237e;
+}
+.btn-primary:hover {
+    background-color: #0e1442;
+    border-color: #0e1442;
+}

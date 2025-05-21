@@ -1,0 +1,225 @@
+[2024-09-27 22:01:38] File upload information: Array
+(
+    [payment_receipt] => Array
+        (
+            [name] => 460598463_1200881301195129_1522024926988423917_n.jpg
+            [full_path] => 460598463_1200881301195129_1522024926988423917_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpBC5.tmp
+            [error] => 0
+            [size] => 151380
+        )
+
+)
+
+[2024-09-27 22:01:38] File uploaded successfully. Path: all/uploads/receipts/66f70f2210b16_460598463_1200881301195129_1522024926988423917_n.jpg
+[2024-09-27 22:01:38] Inserted user_profile. ID: 131
+[2024-09-27 22:01:38] Inserted into waitlist. user_profile_id: 131, payment_status: Pending, receipt_path: all/uploads/receipts/66f70f2210b16_460598463_1200881301195129_1522024926988423917_n.jpg
+[2024-09-27 22:01:38] Transaction committed successfully.
+[2024-09-28 16:48:58] File upload information: Array
+(
+    [payment_receipt] => Array
+        (
+            [name] => Picture1.png
+            [full_path] => Picture1.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php31C0.tmp
+            [error] => 0
+            [size] => 944828
+        )
+
+)
+
+[2024-09-28 16:48:58] File uploaded successfully. Path: all/uploads/receipts/66f8175ad5b45_Picture1.png
+[2024-09-28 16:48:58] Inserted user_profile. ID: 132
+[2024-09-28 16:48:58] Inserted into waitlist. user_profile_id: 132, payment_status: Pending, receipt_path: all/uploads/receipts/66f8175ad5b45_Picture1.png
+[2024-09-28 16:48:58] Transaction committed successfully.
+[2024-09-28 17:01:15] File upload information: Array
+(
+    [payment_receipt] => Array
+        (
+            [name] => june white polo.png
+            [full_path] => june white polo.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php6E47.tmp
+            [error] => 0
+            [size] => 495195
+        )
+
+)
+
+[2024-09-28 17:01:15] File uploaded successfully. Path: all/uploads/receipts/66f81a3b3daba_june white polo.png
+[2024-09-28 17:01:15] Inserted user_profile. ID: 133
+[2024-09-28 17:01:15] Inserted into waitlist. user_profile_id: 133, payment_status: Pending, receipt_path: all/uploads/receipts/66f81a3b3daba_june white polo.png
+[2024-09-28 17:01:15] Transaction committed successfully.
+[2024-09-28 17:22:57] File upload information: Array
+(
+    [payment_receipt] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[2024-09-28 17:22:57] No file uploaded or upload error occurred.
+[2024-09-28 17:22:57] Inserted user_profile. ID: 134
+[2024-09-28 17:22:57] Inserted into waitlist. user_profile_id: 134, payment_status: Pending, receipt_path: 
+[2024-09-28 17:22:57] Transaction committed successfully.
+[2024-09-28 17:27:24] File upload information: Array
+(
+    [payment_receipt] => Array
+        (
+            [name] => 460598463_1200881301195129_1522024926988423917_n.jpg
+            [full_path] => 460598463_1200881301195129_1522024926988423917_n.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php60A7.tmp
+            [error] => 0
+            [size] => 151380
+        )
+
+)
+
+[2024-09-28 17:27:24] File uploaded successfully. Path: all/uploads/receipts/66f8205ca03f2_460598463_1200881301195129_1522024926988423917_n.jpg
+[2024-09-28 17:27:24] Inserted user_profile. ID: 135
+[2024-09-28 17:27:24] Inserted into waitlist. user_profile_id: 135, payment_status: Pending, receipt_path: all/uploads/receipts/66f8205ca03f2_460598463_1200881301195129_1522024926988423917_n.jpg
+[2024-09-28 17:27:24] Transaction committed successfully.
+[2024-09-29 21:00:49] File upload information: Array
+(
+    [payment_receipt] => Array
+        (
+            [name] => Screenshot 2024-09-29 164351.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php255D.tmp
+            [error] => 0
+            [size] => 38374
+        )
+
+)
+
+[2024-09-29 21:00:49] File uploaded successfully. Path: all/uploads/receipts/66f9a3e13913d_Screenshot 2024-09-29 164351.png
+[2024-09-29 21:00:49] Inserted user_profile. ID: 136
+[2024-09-29 21:00:49] Inserted into waitlist. user_profile_id: 136, payment_status: Pending, receipt_path: all/uploads/receipts/66f9a3e13913d_Screenshot 2024-09-29 164351.png
+[2024-09-29 21:00:49] Transaction committed successfully.
+[2024-09-29 21:07:10] File upload information: Array
+(
+    [payment_receipt] => Array
+        (
+            [name] => Screenshot 2024-09-29 195838.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpF6CF.tmp
+            [error] => 0
+            [size] => 85238
+        )
+
+)
+
+[2024-09-29 21:07:10] File uploaded successfully. Path: all/uploads/receipts/66f9a55e81a8f_Screenshot 2024-09-29 195838.png
+[2024-09-29 21:07:10] Inserted user_profile. ID: 137
+[2024-09-29 21:07:10] Inserted into waitlist. user_profile_id: 137, payment_status: Pending, receipt_path: all/uploads/receipts/66f9a55e81a8f_Screenshot 2024-09-29 195838.png
+[2024-09-29 21:07:10] Transaction committed successfully.
+[2024-09-30 06:24:33] File upload information: Array
+(
+    [payment_receipt] => Array
+        (
+            [name] => image_2024-09-30_122431531.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php11E.tmp
+            [error] => 0
+            [size] => 33149
+        )
+
+)
+
+[2024-09-30 06:24:33] File uploaded successfully. Path: all/uploads/receipts/66fa28017e56e_image_2024-09-30_122431531.png
+[2024-09-30 06:24:33] Inserted user_profile. ID: 136
+[2024-09-30 06:24:33] Inserted into waitlist. user_profile_id: 136, payment_status: Pending, receipt_path: all/uploads/receipts/66fa28017e56e_image_2024-09-30_122431531.png
+[2024-09-30 06:24:33] Transaction committed successfully.
+[2024-09-30 06:38:59] File upload information: Array
+(
+)
+
+[2024-09-30 06:38:59] No file uploaded or upload error occurred.
+[2024-09-30 06:38:59] Error occurred: Execute statement failed: Column 'fName' cannot be null
+[2024-09-30 10:40:22] Inserted user_profile. ID: 139
+[2024-09-30 10:41:04] Inserted user_profile. ID: 140
+[2024-09-30 10:41:04] Inserted into waitlist. user_profile_id: 140, payment_status: Pending
+[2024-09-30 10:41:04] Inserted into waitlist. user_profile_id: 140, payment_status: Pending
+[2024-09-30 10:41:04] Transaction committed successfully.
+[2024-09-30 10:52:20] Inserted user_profile. ID: 141
+[2024-09-30 10:52:20] Inserted into waitlist. user_profile_id: 141, payment_status: Pending, waitlist_id: 67
+[2024-09-30 10:52:20] Transaction committed successfully.
+[2024-09-30 11:07:44] Inserted user_profile. ID: 142
+[2024-09-30 11:07:44] Inserted into waitlist. user_profile_id: 142, payment_status: Pending, waitlist_id: 68
+[2024-09-30 11:07:44] Transaction committed successfully.
+[2024-09-30 11:11:11] Error occurred: Execute statement failed: Column 'fName' cannot be null
+[2024-10-03 07:54:56] Inserted user_profile. ID: 143
+[2024-10-03 07:54:56] Inserted into waitlist. user_profile_id: 143, payment_status: Pending, waitlist_id: 69
+[2024-10-03 07:54:56] Transaction committed successfully.
+[2024-10-03 07:59:55] File uploaded successfully. Path: all/uploads/receipts/66fe32dbec450_461832176_1223039452279668_401473683198416282_n.jpg
+[2024-10-03 08:05:25] File uploaded successfully. Path: all/uploads/receipts/66fe342563fc4_461832176_1223039452279668_401473683198416282_n.jpg
+[2024-10-03 08:05:27] File uploaded successfully. Path: all/uploads/receipts/66fe34271771d_461832176_1223039452279668_401473683198416282_n.jpg
+[2024-10-03 08:07:08] File uploaded successfully. Path: all/uploads/receipts/66fe348c3184a_461832176_1223039452279668_401473683198416282_n.jpg
+[2024-10-03 08:07:08] Error occurred: Prepare failed: Unknown column 'id' in 'field list'
+[2024-10-03 08:11:45] File uploaded successfully. Path: all/uploads/receipts/66fe35a1601b6_461832176_1223039452279668_401473683198416282_n.jpg
+[2024-10-03 08:11:45] Error occurred: Prepare failed: Unknown column 'payment_method' in 'field list'
+[2024-10-03 08:15:47] File uploaded successfully. Path: all/uploads/receipts/66fe36939ba7f_461832176_1223039452279668_401473683198416282_n.jpg
+[2024-10-09 15:43:46] Inserted user_profile. ID: 145
+[2024-10-09 15:43:46] Inserted into waitlist. user_profile_id: 145, payment_status: Pending, waitlist_id: 71
+[2024-10-09 15:43:46] Transaction committed successfully.
+[2024-10-09 15:46:07] File uploaded successfully. Path: all/uploads/receipts/6706891f5ba6f_image_2024-10-09_214602991.png
+[2024-10-11 13:18:16] Inserted user_profile. ID: 146
+[2024-10-11 13:18:16] Inserted into waitlist. user_profile_id: 146, payment_status: Pending, waitlist_id: 72
+[2024-10-11 13:18:16] Transaction committed successfully.
+[2024-10-11 13:18:43] Invalid token attempt: 7aedbbbe89d5cd2599e178f7de0a4c35b76b4bee69073ed6ddb557398c023a3
+[2024-10-11 13:18:49] Invalid token attempt: 7aedbbbe89d5cd2599e178f7de0a4c35b76b4bee69073ed6ddb557398c023a3c
+[2024-10-11 13:18:53] Invalid token attempt: 7aedbbbe89d5cd2599e178f7de0a4c35b76b4bee69073ed6ddb557398c023a3c
+[2024-10-11 13:18:58] Invalid token attempt: 7aedbbbe89d5cd2599e178f7de0a4c35b76b4bee69073ed6ddb557398c023a3
+[2024-10-11 13:18:59] Invalid token attempt: 7aedbbbe89d5cd2599e178f7de0a4c35b76b4bee69073ed6ddb557398c023a3c
+[2024-10-11 13:26:12] Inserted user_profile. ID: 147
+[2024-10-11 13:26:12] Inserted into waitlist. user_profile_id: 147, payment_status: Pending, waitlist_id: 73
+[2024-10-11 13:26:12] Transaction committed successfully.
+[2024-10-11 13:27:33] Invalid access attempt: Token not provided
+[2024-10-11 13:27:49] Invalid access attempt: Token not provided
+[2024-10-11 13:28:31] Invalid access attempt: Token not provided
+[2024-10-11 13:30:23] Invalid access attempt: Token not provided
+[2024-10-11 13:34:18] Invalid access attempt: Token not provided
+[2024-10-11 13:36:09] Invalid access attempt: Token not provided
+[2024-10-11 13:36:32] Invalid access attempt: Token not provided
+[2024-10-11 13:40:38] File uploaded successfully. Path: all/uploads/receipts/67090eb6f2917_461980430_122175176936132042_8309411907863271057_n.jpg
+[2024-10-11 14:02:57] Inserted user_profile. ID: 148
+[2024-10-11 14:02:57] Inserted into waitlist. user_profile_id: 148, payment_status: Pending, waitlist_id: 74
+[2024-10-11 14:02:57] Transaction committed successfully.
+[2024-10-11 14:09:40] File uploaded successfully. Path: all/uploads/receipts/670915847148a_hello_world.png
+[2024-10-11 15:30:35] Inserted user_profile. ID: 149
+[2024-10-11 15:30:35] Inserted into waitlist. user_profile_id: 149, payment_status: Pending, waitlist_id: 75
+[2024-10-11 15:30:35] Transaction committed successfully.
+[2024-10-11 15:32:34] File uploaded successfully. Path: all/uploads/receipts/670928f2daad2_461980430_122175176936132042_8309411907863271057_n.jpg
+[2024-10-14 13:20:49] Inserted user_profile. ID: 150
+[2024-10-14 13:20:49] Inserted into waitlist. user_profile_id: 150, payment_status: Pending, waitlist_id: 76
+[2024-10-14 13:20:49] Transaction committed successfully.
+[2024-10-14 13:22:03] Inserted user_profile. ID: 151
+[2024-10-14 13:22:03] Inserted into waitlist. user_profile_id: 151, payment_status: Pending, waitlist_id: 77
+[2024-10-14 13:22:03] Transaction committed successfully.
+[2024-10-14 13:22:46] Inserted user_profile. ID: 152
+[2024-10-14 13:22:46] Inserted into waitlist. user_profile_id: 152, payment_status: Pending, waitlist_id: 78
+[2024-10-14 13:22:46] Transaction committed successfully.
+[2024-10-14 13:23:49] Inserted user_profile. ID: 153
+[2024-10-14 13:23:49] Inserted into waitlist. user_profile_id: 153, payment_status: Pending, waitlist_id: 79
+[2024-10-14 13:23:49] Transaction committed successfully.
+[2024-10-14 13:48:02] File uploaded successfully. Path: all/uploads/receipts/670d04f26b7fe_Screenshot 2024-10-13 224916.png
+[2024-10-15 07:52:30] Inserted user_profile. ID: 154
+[2024-10-15 07:52:30] Inserted into waitlist. user_profile_id: 154, payment_status: Pending, waitlist_id: 80
+[2024-10-15 07:52:30] Transaction committed successfully.
+[2024-10-15 07:54:54] File uploaded successfully. Path: all/uploads/receipts/670e03ae2a65e_Screenshot 2024-10-13 224916.png
+[2024-10-16 07:45:01] Inserted user_profile. ID: 157
+[2024-10-16 07:45:01] Inserted into waitlist. user_profile_id: 157, payment_status: Pending, waitlist_id: 83
+[2024-10-16 07:45:01] Transaction committed successfully.
+[2024-10-16 07:49:20] File uploaded successfully. Path: all/uploads/receipts/670f53e018d37_image_2024-10-16_134905401.png
+[2024-12-11 14:58:34] Inserted user_profile. ID: 158
+[2024-12-11 14:58:34] Inserted into waitlist. user_profile_id: 158, payment_status: Pending, waitlist_id: 84
+[2024-12-11 14:58:34] Transaction committed successfully.

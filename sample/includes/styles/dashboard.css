@@ -1,0 +1,98 @@
+/* dashboard.css */
+
+/* Overall page and body styling */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    color: #333;
+    font-size: 16px;
+}
+
+.card-text strong {
+    color: #007bff;
+}
+
+/* Dashboard grid layout */
+.grid-margin {
+    margin-bottom: 20px;
+}
+
+.grid-margin.stretch-card > .card {
+    width: 100%;
+}
+
+/* Form styling */
+#filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#filter-form .form-control {
+    border-radius: 5px;
+    border-color: #ced4da;
+}
+
+#filter-form .btn {
+    margin-top: 25px;
+}
+
+/* Buttons */
+.btn-primary, .btn-success {
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    opacity: 0.9;
+}
+
+/* Export Data Section */
+.export-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #filter-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #filter-form .form-control,
+    #filter-form .btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+/* Color scheme */
+.card.d-flex {
+    background-color: #ffffff;
+}
+
+/* Highlight for total credit/debit */
+#total-debit, #total-credit {
+    color: #28a745;
+    font-weight: bold;
+}

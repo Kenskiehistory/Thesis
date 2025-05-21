@@ -1,0 +1,144 @@
+/* add_review.css */
+
+/* Form Styling */
+.forms-sample {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 4px;
+    border-color: #ced4da;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #212529;
+    border-color: #ddd;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.table thead {
+    background-color: #f1f3f5;
+}
+
+.table th {
+    font-weight: 600;
+    color: #495057;
+    vertical-align: middle;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Badge Styling */
+.badge-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+/* Action Buttons */
+.btn-group .btn {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .forms-sample {
+        padding: 15px;
+    }
+
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+
+    .btn-group .btn {
+        padding: 3px 8px;
+        font-size: 0.7rem;
+    }
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
